@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(18, 22, 15);
+    color: rgb(218, 215, 226);
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    margin-top: 150px;
+}
+
+p{
+    background-color:rgb(0, 0, 0);
+    border-radius: 50px;
+    width: max-content;
+    text-align: center;
+    margin: auto;
+}
+
+#result{
+    font-size: 34px;
+    color: rgb(135, 221, 85);
+    text-shadow: 2px 2px rgb(30, 105, 15);
+    font-family: monospace;
+}
+
+#bin{
+    background-color:rgb(0, 0, 0);
+    color: rgb(163, 163, 163);
+    font-family: monospace;
+    border-radius: 50px;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+}
+
+#btn{
+    background-color:rgb(0, 0, 0);
+    color: rgb(163, 163, 163);
+    font-family: monospace;
+    border-radius: 40px;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+}
