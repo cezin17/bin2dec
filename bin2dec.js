@@ -1,7 +1,6 @@
 const bin = document.getElementById('bin')
 const btn = document.querySelector('button')
-let result = document.getElementById('result')
-
+let result = document.getElementsByClassName('result')
 
 btn.onclick = function(){
     bin2dec()
@@ -9,5 +8,6 @@ btn.onclick = function(){
 
 function bin2dec(){
     let digit = parseInt(bin.value, 2)
-    console.log(digit)
+    result = digit
+    console.log(result)
 }
