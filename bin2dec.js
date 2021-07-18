@@ -9,5 +9,5 @@ btn.onclick = function(){
 function bin2dec(){
     let digit = parseInt(bin.value, 2)
     result = digit
-    console.log(result)
+    document.getElementsByClassName("result")[0].innerHTML = result
 }
