@@ -1,10 +1,18 @@
+html{
+    height: 100vh;
+}
+
 body{
-    background-color: rgb(18, 22, 15);
-    color: rgb(218, 215, 226);
+    background-image: url(image.jpeg);
+    background-size: cover; 
+}
+
+h1{
+    color: #f3a712;
     text-align: center;
     font-family: monospace;
-    font-size: 20px;
-    margin-top: 150px;
+    font-size: 40px;
+    
 }
 
 p{
@@ -15,34 +23,44 @@ p{
     margin: auto;
 }
 
+.card{
+    box-shadow: 0em 0em 1em 0.5em rgb(0 0 0 / 30%);
+    padding: 1em 1em 2em 1em;
+    margin: auto;
+    width: 210px;
+    text-align: center;
+    height: 240px;
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 0.062);
+    border-radius: 11px;
+}
+
 .result{
     width: 210px;
     text-align: center;
     font-size: 34px;
-    color: rgb(135, 221, 85);
-    text-shadow: 2px 2px rgb(30, 105, 15);
+    color: #f3a712;
     font-family: monospace;
-    background-color: rgb(71, 102, 47);
+    background-color: transparent;
     margin: auto;
     border-radius: 2%;
 }
 
 #bin{
-    background-color:rgb(0, 0, 0);
-    color: rgb(163, 163, 163);
+    height: 1.6em;
+    color: #000000;
     font-family: monospace;
-    border-radius: 50px;
-    text-align: center;
+    border-radius: 20px;
+    /* text-align:center; */
     margin: auto;
-    font-size: 20px;
+    font-size: 23px;
+    width: 6em;
 }
 
 #btn{
-    background-color:rgb(0, 0, 0);
-    color: rgb(163, 163, 163);
+    color: #000000;
     font-family: monospace;
-    border-radius: 40px;
-    text-align: center;
+    border-radius: 10px;
     margin: auto;
     font-size: 20px;
 }
